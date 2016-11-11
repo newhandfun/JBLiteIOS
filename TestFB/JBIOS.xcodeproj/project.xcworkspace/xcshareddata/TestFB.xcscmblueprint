@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "63A795C63F610BF86A5CCA1C0310B6661F613E92",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "63A795C63F610BF86A5CCA1C0310B6661F613E92" : 0,
+    "2CEAEAA908B469CE9CCCDB1039DB2B0AEEA5CDA4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "51D05293-0F91-451B-AF03-5B208E199926",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "63A795C63F610BF86A5CCA1C0310B6661F613E92" : "JBIOS\/",
+    "2CEAEAA908B469CE9CCCDB1039DB2B0AEEA5CDA4" : "JBIOS\/TestFB\/TestFB\/AddOn\/SQLiteDB\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestFB",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestFB\/TestFB.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FahimF\/SQLiteDB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2CEAEAA908B469CE9CCCDB1039DB2B0AEEA5CDA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/newhandfun\/JBIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63A795C63F610BF86A5CCA1C0310B6661F613E92"
+    }
+  ]
+}
