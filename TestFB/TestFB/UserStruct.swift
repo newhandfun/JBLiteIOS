@@ -32,7 +32,8 @@ struct StaticUserData {
    static  var password : String = ""
     
     //FB
-    static var FBid : Int = 0
+    static var FBid : Int!
+    static var fbid : String!
     static var isFB : Bool = false
     
     //StoreList
@@ -53,7 +54,7 @@ struct StaticUserData {
                         StaticUserData.gender = json["gender"]!
                         StaticUserData.nickname = json["nickname"]!
                         StaticUserData.userID = Int((json["id"]! as String))!
-                        StaticUserData.FBid = Int((json["FBid"]! as String))!
+                        StaticUserData.fbid = json["FBid"]!
                         print("FB->UserDataSecc")
                     }
                 }

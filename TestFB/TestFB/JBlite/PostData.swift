@@ -70,7 +70,7 @@ public class PostData  {
         addParam("gender", value: StaticUserData.gender)
         addParam("nickname", value: StaticUserData.name)
         addParam("email", value: StaticUserData.email)
-        addParam("FBid", value: StaticUserData.FBid)
+        addParam("FBid", value: StaticUserData.fbid)
                 request.HTTPBody = self.param.dataUsingEncoding(NSUTF8StringEncoding)
         return request
     }
@@ -91,7 +91,7 @@ public class PostData  {
         param = ""
         addParam("hash", value: "This is Ivan Speaking.")
         addParam("email", value: StaticUserData.email)
-        addParam("FBid", value: StaticUserData.FBid)
+        addParam("FBid", value: StaticUserData.fbid)
                 request.HTTPBody = self.param.dataUsingEncoding(NSUTF8StringEncoding)
         return request
     }

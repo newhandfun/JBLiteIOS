@@ -65,8 +65,8 @@ class VC_Login: VC_BaseVC,FBSDKLoginButtonDelegate{
                 if (error == nil){
                     StaticUserData.name = result["name"] as? String
                     StaticUserData.email = result["email"] as? String
-                    let FBid = result["id"] as? String
-                    StaticUserData.FBid = Int(FBid!)!
+                    let fbid = result["id"] as? String
+                    StaticUserData.fbid = fbid!
                     StaticUserData.gender = result["gender"]as? String
                     StaticUserData.nickname = StaticUserData.name
                     StaticUserData.isFB = true
