@@ -23,7 +23,6 @@
 		F9449F061D89AB4A009E5646 /* VC_Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9449F051D89AB4A009E5646 /* VC_Profile.swift */; };
 		F948DD601DB4DF3C00706837 /* VC_JoinUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948DD5F1DB4DF3C00706837 /* VC_JoinUs.swift */; };
 		F948DD621DB5347300706837 /* VC_StoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F948DD611DB5347300706837 /* VC_StoreList.swift */; };
-		F94D73A41D9BB7AA009CF65C /* ExtendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D73A31D9BB7AA009CF65C /* ExtendView.swift */; };
 		F951AD551D6EB30800725C75 /* VC_BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F951AD541D6EB30800725C75 /* VC_BaseVC.swift */; };
 		F951AD591D6EF17B00725C75 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F951AD581D6EF17B00725C75 /* User.swift */; };
 		F95A2A6A1D563B0E00D39BF0 /* VC_MainSence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A2A691D563B0E00D39BF0 /* VC_MainSence.swift */; };
@@ -88,7 +87,6 @@
 		F9449F051D89AB4A009E5646 /* VC_Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_Profile.swift; sourceTree = "<group>"; };
 		F948DD5F1DB4DF3C00706837 /* VC_JoinUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_JoinUs.swift; sourceTree = "<group>"; };
 		F948DD611DB5347300706837 /* VC_StoreList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_StoreList.swift; sourceTree = "<group>"; };
-		F94D73A31D9BB7AA009CF65C /* ExtendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendView.swift; sourceTree = "<group>"; };
 		F951AD541D6EB30800725C75 /* VC_BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VC_BaseVC.swift; path = VC/VC_BaseVC.swift; sourceTree = "<group>"; };
 		F951AD581D6EF17B00725C75 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Controller/User.swift; sourceTree = "<group>"; };
 		F95A2A691D563B0E00D39BF0 /* VC_MainSence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VC_MainSence.swift; path = VC/VC_MainSence.swift; sourceTree = "<group>"; };
@@ -191,7 +189,6 @@
 		F94D73A21D9BB771009CF65C /* ExtendView */ = {
 			isa = PBXGroup;
 			children = (
-				F94D73A31D9BB7AA009CF65C /* ExtendView.swift */,
 			);
 			name = ExtendView;
 			sourceTree = "<group>";
@@ -366,6 +363,8 @@
 					F9FD50D81D4DECCE006A3AF3 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = RPE89YVE3Q;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -374,10 +373,12 @@
 					};
 					F9FD50EC1D4DECCE006A3AF3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = F9FD50D81D4DECCE006A3AF3;
 					};
 					F9FD50F71D4DECCE006A3AF3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = F9FD50D81D4DECCE006A3AF3;
 					};
 				};
@@ -460,7 +461,6 @@
 				F95A2A6A1D563B0E00D39BF0 /* VC_MainSence.swift in Sources */,
 				F9FD51101D4DEE57006A3AF3 /* FBSDKHeader.m in Sources */,
 				F97A8D3F1D7EFDDA00D9D2B4 /* VC_tutorialPage.swift in Sources */,
-				F94D73A41D9BB7AA009CF65C /* ExtendView.swift in Sources */,
 				F95B25DF1DB3634E00C6B58E /* VC_Map.swift in Sources */,
 				F98DDC4C1D96B8E500240578 /* Store.swift in Sources */,
 				F97051C81D6B4E2200740B3A /* VC_HasExtraMenu.swift in Sources */,
@@ -571,7 +571,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: YU HO WANG (RPE89YVE3Q)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: YU HO WANG (RPE89YVE3Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -584,6 +584,7 @@
 				PRODUCT_NAME = JBIOS;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestFB/TestFB-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = "Ad-Hoc";
 		};
@@ -595,6 +596,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestFBTests;
 				PRODUCT_NAME = JBIOS;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBIOS.app/JBIOS";
 			};
 			name = "Ad-Hoc";
@@ -606,6 +608,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestFBUITests;
 				PRODUCT_NAME = JBIOS;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = TestFB;
 			};
 			name = "Ad-Hoc";
@@ -708,7 +711,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: YU HO WANG (RPE89YVE3Q)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: YU HO WANG (KCC2TVPTC2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -720,8 +724,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jblite.jbios;
 				PRODUCT_NAME = JBIOS;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestFB/TestFB-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -732,7 +738,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: YU HO WANG (RPE89YVE3Q)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: YU HO WANG (RPE89YVE3Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -744,7 +751,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jblite.jbios;
 				PRODUCT_NAME = JBIOS;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestFB/TestFB-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -756,6 +765,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestFBTests;
 				PRODUCT_NAME = JBIOS;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBIOS.app/JBIOS";
 			};
 			name = Debug;
@@ -768,6 +778,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestFBTests;
 				PRODUCT_NAME = JBIOS;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBIOS.app/JBIOS";
 			};
 			name = Release;
@@ -779,6 +790,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestFBUITests;
 				PRODUCT_NAME = JBIOS;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = TestFB;
 			};
 			name = Debug;
@@ -790,6 +802,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestFBUITests;
 				PRODUCT_NAME = JBIOS;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = TestFB;
 			};
 			name = Release;
