@@ -186,13 +186,6 @@
 			path = TestFB/AddOn;
 			sourceTree = "<group>";
 		};
-		F94D73A21D9BB771009CF65C /* ExtendView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ExtendView;
-			sourceTree = "<group>";
-		};
 		F951AD561D6EF0EA00725C75 /* VC */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,7 +247,6 @@
 		F9FD50DB1D4DECCE006A3AF3 /* TestFB */ = {
 			isa = PBXGroup;
 			children = (
-				F94D73A21D9BB771009CF65C /* ExtendView */,
 				F906A3CD1D73D6A300B721F0 /* Header */,
 				F951AD571D6EF11300725C75 /* Controller */,
 				F951AD561D6EF0EA00725C75 /* VC */,
