@@ -29,8 +29,9 @@ class VC_Result: VC_HasExtraMenu {
         super.viewDidLoad()
         txt_name.text = Store.name
         loadImage()
-//        imageTimer = NSTimer.scheduledTimerWithTimeInterval(0.3, target : self, selector: Selector("loadImage"),userInfo: nil, repeats: true)
     }
+    
+
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)

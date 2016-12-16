@@ -33,8 +33,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
             endingLineNumber = "46"
-            landmarkName = "doInBackGround(_:funcAfterAll:finishStr:)"
-            landmarkType = "5">
+            landmarkName = "doInBackGround(request:funcAfterAll:finishStr:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -49,8 +49,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
             endingLineNumber = "58"
-            landmarkName = "doInBackGround(_:funcAfterAll:finishStr:)"
-            landmarkType = "5">
+            landmarkName = "doInBackGround(request:funcAfterAll:finishStr:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -92,13 +92,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846175.497012"
+            timestampString = "503598608.107279"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
             landmarkName = "goToMainSence()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -108,13 +108,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "498897071.207361"
+            timestampString = "503595235.040905"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidAppear(_:)"
-            landmarkType = "5">
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidAppear(animated:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -220,13 +220,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Result.swift"
-            timestampString = "498894649.531589"
+            timestampString = "503596582.822915"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "clickTimes(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -257,8 +257,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
             endingLineNumber = "59"
-            landmarkName = "viewDidAppear(_:)"
-            landmarkType = "5">
+            landmarkName = "viewDidAppear(animated:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -289,8 +289,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
             endingLineNumber = "35"
-            landmarkName = "clickJoinUs(_:)"
-            landmarkType = "5">
+            landmarkName = "clickJoinUs(sender:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -300,13 +300,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_BaseVC.swift"
-            timestampString = "498833472.422052"
+            timestampString = "503595235.040905"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "CallActivityIndicator(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -364,13 +364,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_BaseVC.swift"
-            timestampString = "498833472.422052"
+            timestampString = "503595235.040905"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -380,13 +380,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_BaseVC.swift"
-            timestampString = "498833472.422052"
+            timestampString = "503595235.040905"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "builddataTaskWithRequest(_:requestType:doAfterAll:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -401,8 +401,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "77"
             endingLineNumber = "77"
-            landmarkName = "builddataTaskWithRequest(_:requestType:)"
-            landmarkType = "5">
+            landmarkName = "builddataTaskWithRequest(request:requestType:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -417,8 +417,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
             endingLineNumber = "78"
-            landmarkName = "builddataTaskWithRequest(_:requestType:)"
-            landmarkType = "5">
+            landmarkName = "builddataTaskWithRequest(request:requestType:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -428,13 +428,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846175.497012"
+            timestampString = "503595337.219886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "getFBUserData()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -444,13 +444,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846175.497012"
+            timestampString = "503595337.219886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "doAfterRequest(_:)"
-            landmarkType = "5">
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "doAfterRequest(result:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -460,13 +460,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846175.497012"
+            timestampString = "503595337.219886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "doAfterRequest(_:)"
-            landmarkType = "5">
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "doAfterRequest(result:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -524,13 +524,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846175.497012"
+            timestampString = "503595337.219886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "doAfterRequest(_:)"
-            landmarkType = "5">
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "doAfterRequest(result:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -540,13 +540,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846175.497012"
+            timestampString = "503595337.219886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "doAfterRequest(_:)"
-            landmarkType = "5">
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "doAfterRequest(result:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -561,8 +561,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "152"
             endingLineNumber = "152"
-            landmarkName = "click_lid(_:)"
-            landmarkType = "5">
+            landmarkName = "click_lid(sender:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -572,13 +572,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846115.707361"
+            timestampString = "503595337.219886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "getFBUserData()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -588,13 +588,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestFB/VC/VC_Login.swift"
-            timestampString = "501846175.497012"
+            timestampString = "503595337.219886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "getFBUserData()"
-            landmarkType = "5">
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFB/VC/VC_Login.swift"
+            timestampString = "503595337.219886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "doAfterRequest(result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestFB/VC_Comment.swift"
+            timestampString = "503597678.63755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidAppear(animated:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

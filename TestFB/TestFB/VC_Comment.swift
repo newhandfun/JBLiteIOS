@@ -17,6 +17,7 @@ class VC_Comment: VC_BaseVC,UIPickerViewDelegate,UIPickerViewDataSource {
     @IBOutlet weak var txtView_content: UITextView!
     @IBOutlet weak var btn_type: UIButton!
     
+
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         txtView_content.endEditing(true)

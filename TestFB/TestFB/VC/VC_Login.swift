@@ -14,6 +14,8 @@ class VC_Login: VC_BaseVC,FBSDKLoginButtonDelegate{
     var loginTimer = NSTimer()
     
     
+    var isFB = true;
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
     }
@@ -37,7 +39,8 @@ class VC_Login: VC_BaseVC,FBSDKLoginButtonDelegate{
     
     //事件
     @IBAction func click_Login(sender: AnyObject) {
-
+        isFB=false
+        builddataTaskWithRequest(buildJBRequest("", urlAfterJB: "login/guestLogin.php", log: "訪客登入"), requestType: "登入成功")
     }
     @IBAction func clickFBLogin(sender: AnyObject) {
         FBLogin()
@@ -99,6 +102,8 @@ class VC_Login: VC_BaseVC,FBSDKLoginButtonDelegate{
     }
     
     override func doAfterRequest(result: NSString) {
+        if(!isFB){return}
+        
         StaticUserData.decodeJsonToUserData(result)
         if StaticUserData.userID != nil{
             CencleActivityIndicator()
@@ -110,6 +115,14 @@ class VC_Login: VC_BaseVC,FBSDKLoginButtonDelegate{
             isLogin = true
             builddataTaskWithRequest(self.postData.loadUser(), requestType: "load")
         }
+    }
+    
+    override func doAterRequest2(result : NSString){
+        if(isFB){return}
+        StaticUserData.decodeJsonToUserData(result)
+        StaticUserData.userID = -1
+        StaticUserData.name = "訪客"
+        goToMainSence()
     }
     
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {

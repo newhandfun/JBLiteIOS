@@ -82,6 +82,7 @@ class VC_BaseVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
             print(result)
             if(result != "{\"success\":\"False\"}"){
                 self.doAfterRequest(result)
+                self.doAterRequest2(result)
             }
             }
             .resume()
@@ -94,6 +95,9 @@ class VC_BaseVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
     }
     
     func doAfterRequest(result : NSString){
+    }
+    
+    func doAterRequest2(result : NSString){
     }
     
     //test

@@ -14,6 +14,7 @@ class VC_ExtraOption: VC_BaseVC {
     //component
     @IBOutlet var view_base: UIView!
     @IBOutlet weak var btn_bell: UIButton!
+    
     @IBOutlet weak var view_sign: UIView!
     @IBOutlet weak var btn_photo: UIButton!
     @IBOutlet weak var text_hello: UILabel!
@@ -31,11 +32,15 @@ class VC_ExtraOption: VC_BaseVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        text_hello.text = "你好,"+StaticUserData.name
         if (FBSDKAccessToken.currentAccessToken() != nil){
             btn_photo.setImage(
                 StaticUserData.photo,
                 forState: UIControlState.Normal)
-            text_hello.text = "你好,"+StaticUserData.name
+        }
+        if(StaticUserData.userID == -1)
+        {
+            btn_photo.enabled = false
         }
     }
     

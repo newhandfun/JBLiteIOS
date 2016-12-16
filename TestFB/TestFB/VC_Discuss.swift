@@ -61,6 +61,13 @@ class VC_Discuss : VC_BaseVC,UITableViewDataSource,UITableViewDelegate{
         var number : String! = "0"
         number =  String(Store.Discuss!.count)
         lbl_numberOfContent.text = "總共有" + number! + "則評論";
+        print(StaticUserData.userID)
+        if(StaticUserData.userID == -1)
+        {
+            txt_discuss.text = "要留言請先登入～"
+            txt_discuss.enabled = false
+            btn_addDiscuss.hidden = true
+        }
         
     }
     

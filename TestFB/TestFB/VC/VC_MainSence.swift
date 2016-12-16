@@ -171,6 +171,7 @@ class VC_MainSence: VC_HasExtraMenu,UICollectionViewDelegate,UICollectionViewDat
     //override method
     override func loadView() {
         super.loadView()
+
     }
     
     override func viewDidLoad() {
