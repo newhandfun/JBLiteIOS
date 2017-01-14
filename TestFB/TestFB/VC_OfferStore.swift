@@ -44,6 +44,7 @@ class VC_OfferStore : VC_BaseVC{
     
     //lifeCycle
     override func viewDidLoad() {
+        super.viewDidLoad()
 //        btn_confirm.enabled = false;
         btn_name.enabled = false;
     }

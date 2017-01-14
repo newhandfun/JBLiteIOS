@@ -17,7 +17,7 @@ class ViewController: UIViewController ,FBSDKLoginButtonDelegate{
         }()
     
     override func viewDidLoad() {
-//        super.viewDidLoad()
+       super.viewDidLoad()
 //              
 //        view.addSubview(loggingButton)
 //        loggingButton.center = view.center

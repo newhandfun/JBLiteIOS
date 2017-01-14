@@ -196,6 +196,8 @@ class VC_MainSence: VC_HasExtraMenu,UICollectionViewDelegate,UICollectionViewDat
         
         CV_goal.delegate = self
             CV_goal.dataSource = self
+        
+        
     }
     
     override func viewWillAppear(animated: Bool) {

@@ -19,6 +19,8 @@ class VC_StoreList : VC_BaseVC,UITableViewDataSource,UITableViewDelegate{
     //tableView
     override func viewDidLoad() {
         
+        super.viewDidLoad()
+        
         storeArray = storeList!["result"] as! NSArray
         for (i) in storeArray! {
             nameArray.append((i as! [String:NSObject])["name"]!)

@@ -29,6 +29,7 @@ class VC_HasExtraMenu: VC_BaseVC {
     }
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         view_halfBlack.alpha = 0
     }
     

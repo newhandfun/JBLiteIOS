@@ -17,6 +17,7 @@ class VC_Map : VC_BaseVC,MKMapViewDelegate,CLLocationManagerDelegate{
 //    let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         self.mapView_map.delegate = self
 //        locationManager.delegate = self
         

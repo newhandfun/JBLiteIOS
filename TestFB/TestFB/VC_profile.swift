@@ -19,6 +19,8 @@ class VC_Profile : VC_BaseVC{
     @IBOutlet weak var img_women: UIImageView!
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        
         text_email.text = StaticUserData.email;
         if(StaticUserData.photo != UIImage()){
             img_profile.image = StaticUserData.photo

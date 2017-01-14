@@ -191,13 +191,7 @@ class VC_BaseVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
         view.layer.position = position;
         view.layer.anchorPoint = anchorPoint;
     }
-    
-    //delegate
-    
-    override func loadView() {
-        super.loadView()
-        
-    }
+
     //pickpicturefromfile
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         
@@ -223,5 +217,32 @@ class VC_BaseVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return false
+    }
+    
+    
+    //initial UILabel
+    func initialUILabel(){
+        var labels = [UILabel]()
+        for subview in (view.subviews as? [UIView])! {
+            if let labelView = subview as? UILabel{
+                labels += [labelView]
+            }
+        }
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0)){
+            for label in labels{
+                let text = label.text
+                label.text = text
+            }
+        }
+    }
+    
+    
+    //life cycle
+    override func loadView() {
+        super.loadView()
+    }
+    
+    override func viewDidLoad(){
+        initialUILabel();
     }
 }

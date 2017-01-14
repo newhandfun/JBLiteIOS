@@ -84,6 +84,7 @@ class VC_Discuss : VC_BaseVC,UITableViewDataSource,UITableViewDelegate{
     }
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         tableV_content.estimatedRowHeight = 250
         tableV_content.rowHeight = UITableViewAutomaticDimension
     }
